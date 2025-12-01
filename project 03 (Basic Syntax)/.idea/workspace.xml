@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3962005-3254-47e1-94ee-ae84d5d500a0" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34z6Xc74YwWf4jtioI6h6orzXaU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [idea:module].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/colasa/Java project/project 03 (Basic Syntax)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23448277&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ArgsTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArgsTest_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArithmeticDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArrTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArrayDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArrayLoop.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArrayPractice.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ArraysDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.AssignDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.BigDecimalDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.BooleanDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CalendarDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Car.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarCalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarLotteryTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarTest (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarTest (4).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CarTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CharDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.CompareDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ComputerTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ConvertDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.DateDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.EnumDemoTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Exam.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.FileTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.FinalDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.FinallyDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.FloatDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.GenericsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.HashMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.HashSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.IfDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.IntDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LocalDateDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LogicOperator.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LoopDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.LoopTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.MathDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.MethodDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ModDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.NestLoopDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.OderCal.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ParkingTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.PracticeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_14_17_1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_14_17_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_15_16_1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_15_16_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_4_12.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_4_12_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_5_13.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_5_13_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_6_13.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_6_13_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_7_14.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_7_14_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_8_11_1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_8_11_1_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_8_11_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_8_11_2_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_8_11_3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_8_11_3_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_9_13.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Practice_9_13_Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.RandomDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Refueling.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SealCarTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SelfTest_5.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrCompare.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrConnect.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrDemo_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrPractice.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StrPractice_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SwitchDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ThrowsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TreeMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TreeSetTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TreeSetTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TryDemo_1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.TryDemo_2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VehicleTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VehicleTestFour.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VehicleTestOne.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VehicleTestThree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.VehicleTestTwo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.WrapperDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_10_15_3.test.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_11_14_2.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_11_14_4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_12_12_2.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_12_12_3.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_12_12_4.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_12_12_4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_13_13_1.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_13_13_1_perfect.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_13_13_2.Car.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_13_13_2_perfect.Car.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_3.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_5.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_6.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_7.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_8.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_14_17_9.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_15_16_3.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_16_20_1.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_16_20_2.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_16_20_3.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.practice_16_20_4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.selftest_1.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.selftest_2.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.selftest_3.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.selftest_4.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.selftest_4.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.student.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.imooc.thread.Test.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\colasa\Github local repository\Java-study\chapter 04\src" />
+      <recent name="C:\colasa\Java 项目\chapter01\src\com\imooc\lottery" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.imooc" />
+      <recent name="com.imooc.tools" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn  idea:module" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b3962005-3254-47e1-94ee-ae84d5d500a0" name="更改" comment="" />
+      <created>1762204097568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762204097568</updated>
+      <workItem from="1762204099208" duration="14344000" />
+      <workItem from="1762286959864" duration="8328000" />
+      <workItem from="1762295519107" duration="39000" />
+      <workItem from="1762295570892" duration="1855000" />
+      <workItem from="1762302988993" duration="40000" />
+      <workItem from="1762303049401" duration="365000" />
+      <workItem from="1762303428056" duration="177000" />
+      <workItem from="1762303623010" duration="186000" />
+      <workItem from="1762303820891" duration="29426000" />
+      <workItem from="1762380193788" duration="13615000" />
+      <workItem from="1762396206429" duration="346000" />
+      <workItem from="1762396565778" duration="49000" />
+      <workItem from="1762396625120" duration="176000" />
+      <workItem from="1762396814407" duration="239000" />
+      <workItem from="1762397071190" duration="865000" />
+      <workItem from="1762398109745" duration="425000" />
+      <workItem from="1762407925572" duration="59000" />
+      <workItem from="1762730081852" duration="101000" />
+      <workItem from="1763626731450" duration="1973000" />
+      <workItem from="1763636880844" duration="13000" />
+      <workItem from="1763636903517" duration="2000" />
+      <workItem from="1763636918428" duration="89000" />
+      <workItem from="1763637019056" duration="371000" />
+      <workItem from="1763637395833" duration="33857000" />
+      <workItem from="1763712083819" duration="29836000" />
+      <workItem from="1763796071646" duration="41363000" />
+      <workItem from="1763842178057" duration="2000" />
+      <workItem from="1763886007165" duration="8048000" />
+      <workItem from="1763996912910" duration="18537000" />
+      <workItem from="1764055999123" duration="569000" />
+      <workItem from="1764056582642" duration="6000" />
+      <workItem from="1764058381060" duration="2649000" />
+      <workItem from="1764264047676" duration="80000" />
+      <workItem from="1764264164557" duration="4910000" />
+      <workItem from="1764273186373" duration="8000" />
+      <workItem from="1764385341260" duration="189000" />
+      <workItem from="1764385567403" duration="105000" />
+      <workItem from="1764449267751" duration="486000" />
+      <workItem from="1764449784924" duration="2152000" />
+      <workItem from="1764467769094" duration="97000" />
+      <workItem from="1764468044140" duration="102000" />
+      <workItem from="1764468155105" duration="2230000" />
+      <workItem from="1764470447196" duration="67000" />
+      <workItem from="1764470591728" duration="8000" />
+      <workItem from="1764470964322" duration="4000" />
+      <workItem from="1764470971492" duration="27000" />
+      <workItem from="1764471000875" duration="8000" />
+      <workItem from="1764471415644" duration="14000" />
+      <workItem from="1764537513318" duration="14000" />
+      <workItem from="1764537958690" duration="173000" />
+      <workItem from="1764538594214" duration="5000" />
+      <workItem from="1764538946699" duration="16000" />
+      <workItem from="1764545300283" duration="34000" />
+      <workItem from="1764545336563" duration="2000" />
+      <workItem from="1764545416188" duration="2000" />
+      <workItem from="1764545642956" duration="17000" />
+      <workItem from="1764545837162" duration="6000" />
+      <workItem from="1764546339905" duration="9000" />
+      <workItem from="1764546922611" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

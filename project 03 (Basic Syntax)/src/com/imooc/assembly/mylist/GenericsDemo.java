@@ -1,0 +1,30 @@
+package com.imooc.assembly.mylist;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GenericsDemo {
+    public static void main(String[] args) {
+        Parking parking1 = new Parking("A101","京ADF1234");
+        Parking parking2 = new Parking("A102","京ADF1111");
+        Parking parking3 = new Parking("A103","京ADF6666");
+        Parking parking4 = new Parking("A104","京ADF5678");
+        Parking parking5 = new Parking("A105","京ADF8899");
+
+        //创建集合
+        List<Parking> parkingList = new ArrayList<Parking>();
+        //添加集合元素
+        parkingList.add(parking1);
+        parkingList.add(parking2);
+        parkingList.add(parking4);
+        parkingList.add(parking5);
+        //将元素添加到指定位置
+        parkingList.add(2,parking3);
+
+        //for循环遍历集合
+        for (int i = 0; i < parkingList.size(); i++) {
+            Parking parking = parkingList.get(i);
+            System.out.println(parking);
+        }
+    }
+}
