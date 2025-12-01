@@ -1,0 +1,6 @@
+com\imooc\mapper\StuMapper.class
+com\imooc\mybatis\utils\GeneratorDisplay.class
+com\imooc\mapper\DbStuMapper.class
+com\imooc\pojo\Stu.class
+com\imooc\pojo\DbStu.class
+com\imooc\my_mapper\MyMapper.class
