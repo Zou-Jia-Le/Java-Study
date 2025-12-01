@@ -1,0 +1,79 @@
+#web访问端口:
+server:
+  port: 8090
+
+#自定义配置：
+#app.name.xxx.yyy.zzz
+app:
+  name:
+    xxx:
+      yyy:
+        zzz: imooc
+
+#自定义配置:
+#self.custom.config.sdkSecret
+#self.custom.config.host
+#self.custom.config.port
+self:
+  custom:
+    config:
+      sdkSecret: abc123
+      host: https://www.imooc.com
+      port: ${server.port}
+
+#自定义启动logo:
+#spring:
+#  banner:
+#    image:
+#      location: classpath:banner/1.jpg
+#      pixelmode: block
+
+spring:
+  datasource: #数据源相关的配置节点
+    type: com.zaxxer.hikari.HikariDataSource #数据源的类型：HikariDataSource
+#    type: com.alibaba.druid.pool.DruidDataSource #引入自定义的 druid 数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver #mysql/MariaDB驱动
+    url: jdbc:mysql://localhost:3306/imooc-springboot-learn?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 01491625aA@
+    hikari:
+      connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生 SQLException，默认：30秒
+      minimum-idle: 5                 # 最小连接数
+      maximum-pool-size: 20           # 最大连接数
+      auto-commit: true               # 自动提交
+      idle-timeout: 600000            # 连接超时的最大时长（毫秒），超时则被释放（retired），默认：10分钟
+      pool-name: DateSourceHikariCP   # 连接池名字
+      max-lifetime: 1800000           # 连接的生命时长（毫秒），超时而且没被使用则被释放（retired），默认：30分钟/1800000ms
+      connection-test-query: SELECT 1
+  servlet:
+    multipart:
+      max-file-size: 500KB #文件上传大小的限制，设置最大值不能超过，否则报错
+      max-request-size: 2MB #文件最大请求限制，一般用于批量
+#  mvc:
+#    static-path-pattern: /abc/* #增添路径前缀
+  banner:
+    location: classpath:banner/佛祖保佑.txt/ #自定义启动 logo:
+  thymeleaf:
+    prefix: classpath:templates/ #末尾的 '/' 别忘了
+    suffix: .html
+#  profiles:
+#    active: dev #激活当前指定的环境配置文件
+
+#MyBatis相关的配置:
+mybatis:
+  type-aliases-package: com.imooc.pojo #所有数据库表逆向后所一一映射的实体类（Entity/Bean/POJO）
+  mapper-locations: classpath:mapper/*.xml #所有 mapper 映射文件所在目录位置
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启 MyBatis 的日志实现，可以在控制台打印输出 MySQL 语句
+
+#通用 mapper 的相关配置:
+mapper:
+  mappers: com.imooc.my_mapper.MyMapper #所有 mapper 都需要实现的接口
+  not-empty: false #在进行数据库操作的时候，判断一个属性是否为空的时候，是否需要自动追加不为空字符串的判断
+                   #username != null 后面不需要 username != ''
+  identity: MYSQL
+
+#分页插件助手的配置
+pagehelper:
+  helper-dialect: mysql #数据库方言
+  support-methods-arguments: true #支持通过 Mapper 接口参数来传递分页参数
