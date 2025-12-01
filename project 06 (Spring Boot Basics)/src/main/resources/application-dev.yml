@@ -1,0 +1,8 @@
+#web访问端口:
+server:
+  port: 8088
+
+#MyBatis相关的配置:
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启 MyBatis 的日志实现，可以在控制台打印输出 MySQL 语句
