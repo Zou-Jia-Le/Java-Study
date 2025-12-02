@@ -171,5 +171,5 @@
     </root>
 
     <!--指定某个包下的日志级别，默认使用root标签配置-->
-    <logger name = "com.imooc.job.mapper" level = "debug"/>
+    <logger name = "com.imooc.job_backend.mapper" level = "debug"/>
 </configuration>
