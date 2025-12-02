@@ -1,6 +1,6 @@
 #web访问端口:
 server:
-  port: 8090
+  port: 8080
 
 #自定义配置：
 #app.name.xxx.yyy.zzz
@@ -21,7 +21,7 @@ self:
       host: https://www.imooc.com
       port: ${server.port}
 
-#自定义启动logo:
+#自定义启动 logo:
 #spring:
 #  banner:
 #    image:
@@ -33,7 +33,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource #数据源的类型：HikariDataSource
 #    type: com.alibaba.druid.pool.DruidDataSource #引入自定义的 druid 数据源
     driver-class-name: com.mysql.cj.jdbc.Driver #mysql/MariaDB驱动
-    url: jdbc:mysql://localhost:3306/imooc-springboot-learn?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/java_project_06?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     username: root
     password: 01491625aA@
     hikari:
@@ -59,16 +59,16 @@ spring:
 #  profiles:
 #    active: dev #激活当前指定的环境配置文件
 
-#MyBatis相关的配置:
+# MyBatis 相关的配置:
 mybatis:
-  type-aliases-package: com.imooc.pojo #所有数据库表逆向后所一一映射的实体类（Entity/Bean/POJO）
+  type-aliases-package: com.imooc.project_06.pojo #所有数据库表逆向后所一一映射的实体类（Entity/Bean/POJO）
   mapper-locations: classpath:mapper/*.xml #所有 mapper 映射文件所在目录位置
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启 MyBatis 的日志实现，可以在控制台打印输出 MySQL 语句
 
 #通用 mapper 的相关配置:
 mapper:
-  mappers: com.imooc.my_mapper.MyMapper #所有 mapper 都需要实现的接口
+  mappers: com.imooc.project_06.my_mapper.MyMapper #所有 mapper 都需要实现的接口
   not-empty: false #在进行数据库操作的时候，判断一个属性是否为空的时候，是否需要自动追加不为空字符串的判断
                    #username != null 后面不需要 username != ''
   identity: MYSQL
