@@ -4,13 +4,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 <!--命名空间：定义JobCategory接口映射文件（即JobCategoryMapper.xml与mapper层接口之间的关系-->
-<mapper namespace = "com.imooc.job.mapper.JobCategoryMapper">
-    <select id = "allJobCategory" resultType = "com.imooc.job.domain.JobCategory">
+<mapper namespace = "com.imooc.job_backend.mapper.JobCategoryMapper">
+    <select id = "allJobCategory" resultType = "com.imooc.job_backend.domain.JobCategory">
         SELECT *FROM `job_category`
     </select>
 
     <!--id：Mapper接口中的方法名;parameterType:参数类型，是实体类的全限定名;useGeneratedKeys="true":启用自增主键返回;keyProperty="id":获取主键值后将其赋值给id属性，就是将插入数据库操作的返回值赋值给id属性，这样就能让程序返回主键自增id，通过id属性值拿到数据库中的自增id-->
-    <insert id = "insertJobCategory" parameterType = "com.imooc.job.domain.JobCategory" useGeneratedKeys = "true" keyProperty = "id">
+    <insert id = "insertJobCategory" parameterType = "com.imooc.job_backend.domain.JobCategory" useGeneratedKeys = "true" keyProperty = "id">
         INSERT INTO `job_category`
             (category_name,category_desc)
         VALUES
@@ -22,7 +22,7 @@
         WHERE id = #{id}
     </delete>
     
-    <update id = "updateByPrimaryKey" parameterType = "com.imooc.job.domain.JobCategory">
+    <update id = "updateByPrimaryKey" parameterType = "com.imooc.job_backend.domain.JobCategory">
         UPDATE `job_category`
         SET
             category_name = #{category_name},

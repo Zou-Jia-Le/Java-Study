@@ -140,7 +140,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <!--项目的主启动类-->
-                    <mainClass>com.imooc.job.JobApplication</mainClass>
+                    <mainClass>com.imooc.job_backend.JobApplication</mainClass>
                     <!--启动入口设置为true会跳过主启动类，打包之后会提示没有主清单属性-->
                     <skip>false</skip>
                 </configuration>

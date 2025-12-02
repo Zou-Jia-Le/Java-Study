@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "com.imooc.job.mapper.JobsMapper">
+<mapper namespace = "com.imooc.job_backend.mapper.JobsMapper">
 
-    <resultMap id = "BaseResultMap" type = "com.imooc.job.domain.Jobs">
+    <resultMap id = "BaseResultMap" type = "com.imooc.job_backend.domain.Jobs">
             <id property = "id" column = "id" jdbcType = "INTEGER"/>
             <result property = "jobTitle" column = "job_title" jdbcType = "VARCHAR"/>
             <result property = "categoryName" column = "category_name" jdbcType = "VARCHAR"/>
@@ -25,7 +25,7 @@
         author_photo,publish_time
     </sql>
 
-    <select id = "countByCategoryName" resultType = "com.imooc.job.vo.JobsByCategoryVo">
+    <select id = "countByCategoryName" resultType = "com.imooc.job_backend.vo.JobsByCategoryVo">
         SELECT
             js.category_name,jc.category_desc,COUNT(js.id) AS quantity
         FROM
@@ -38,7 +38,7 @@
             quantity DESC;
     </select>
 
-    <select id = "countByCity" resultType = "com.imooc.job.vo.JobsByCityVo">
+    <select id = "countByCity" resultType = "com.imooc.job_backend.vo.JobsByCityVo">
         SELECT
             city,COUNT(id) AS quantity
         FROM
@@ -49,7 +49,7 @@
             quantity DESC;
     </select>
     
-    <select id = "countByProvince" resultType = "com.imooc.job.vo.JobsByProvinceVo">
+    <select id = "countByProvince" resultType = "com.imooc.job_backend.vo.JobsByProvinceVo">
         SELECT c.province,COUNT(js.id) AS quantity
         FROM
             jobs js
