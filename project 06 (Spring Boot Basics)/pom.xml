@@ -164,7 +164,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.imooc.Application</mainClass>
+                    <mainClass>com.imooc.project_06.Application</mainClass>
                     <skip>false</skip>
                 </configuration>
                 <executions>
